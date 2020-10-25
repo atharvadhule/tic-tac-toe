@@ -137,7 +137,7 @@ function three(){
             window.location.reload()
         }
 
-    }else if (bt = 1){
+    }else{
 
         document.getElementById("3").innerHTML= "X";
         bt ++;
@@ -149,7 +149,7 @@ function three(){
         
             window.location.reload()
         }
-        if(ninth_o + sixth_x + third_x == 6){
+        if(ninth_x + sixth_x + third_x == 6){
             alert("win x");
             document.getElementById("win").innerHTML= "Atharava Wins";
         
