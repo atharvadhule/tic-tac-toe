@@ -145,20 +145,14 @@ function three(){
         third_x++;
         if(first_x + sec_x + third_x == 6){
             alert("win x");
-            // document.getElementById("win").innerHTML= "Atharava Wins";
-        
             window.location.reload()
         }
         if(ninth_x + sixth_x + third_x == 6){
             alert("win x");
-            document.getElementById("win").innerHTML= "Atharava Wins";
-        
             window.location.reload()
         }
         if(five_x + seventh_x + third_x == 6){
             alert("win x");
-            document.getElementById("win").innerHTML= "Atharava Wins";
-        
             window.location.reload()
         }
         
